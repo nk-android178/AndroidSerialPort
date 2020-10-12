@@ -40,6 +40,9 @@ public class MainActivity extends Activity {
     protected void onDestroy() {
         super.onDestroy();
         EventBus.getDefault().unregister(this);
+        if (serialPortUtil != null) {
+            serialPortUtil.closeSerialPort();
+        }
     }
 
     /**
