@@ -11,7 +11,6 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 /**
- * Google官方代码
  * 此类的作用为，JNI的调用，用来加载.so文件的
  * 获取串口输入输出流
  */

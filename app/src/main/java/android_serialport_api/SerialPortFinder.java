@@ -10,7 +10,6 @@ import java.util.Iterator;
 import java.util.Vector;
 
 /**
- * Google官方代码
  * 此类的作用为，寻找得到有效的串口的物理地址。
  * 如果你本身就知道串口的地址如：ttyS1、ttyS2，那么这个类就可以不用了。
  *
