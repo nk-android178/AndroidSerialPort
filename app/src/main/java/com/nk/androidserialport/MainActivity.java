@@ -11,7 +11,6 @@ import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
-
 public class MainActivity extends Activity {
     private String TAG = "MainActivity";
     private Button button;
